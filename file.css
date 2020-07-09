@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.headin
+{    
+    text-align: center;
+    font-size: 40px;
+    
+
+}
+.design{ 
+    float: left;
+    margin: 10px;
+    
+    width:30%;
+    background-color: #8b0000;
+
+}
+
+.heading
+{ 
+   
+     
+     font-size: 30px;
+ text-align:end;
+    
+ width: 100%;
+  
+  background-color: chocolate; 
+}
+
+.text
+{ 
+      
+    border: 2px solid gray;
+    background-color :white;
+    background-color: #a9a9a9;
+}
+@media (min-width:768px) and (max-width:991px)
+{
+.size1
+ {  float:left;
+     width:45%;
+ }
+}
+
+@media(max-width:767px)
+{
+.size1
+ {  float:left;
+     width:94%;
+ }
+}
